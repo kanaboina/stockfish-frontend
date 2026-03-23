@@ -19,13 +19,11 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Auth0Provider
-    domain="dev-3n4lqhyiffc85k6a.us.auth0.com"
-    clientId="PT2cVFumJIBeDIpS4LvbOuTCgkart96I"
-    authorizationParams={{
-      redirect_uri: window.location.origin
-    }}
-  >
+  <Auth0Provider
+      domain="vishwizard.jp.auth0.com"
+      clientId="zNjwpNXZtnpnyAeRzskMzlkvZOyHKLzo"
+      authorizationParams={{ redirect_uri: window.location.origin }}
+    >
       <BrowserRouter>
         <div className={classes.App}>
           <Header />
